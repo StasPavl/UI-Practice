@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Restaurant</title>
+</head>
+<body>
+<h3>Please select your food favorite food!</h3>
+<form>
+    <label for="1">
+        <input type="checkbox" name="food" value="beef" id="1"> Beef
+    </label>
+
+    <label for="2">
+        <input type="checkbox" name="food" value="Burger" id="2"> Burger
+    </label>
+
+    <label for="3">
+        <input type="checkbox" name="food" value="Salad" id="3"> Salad
+    </label>
+
+    <hr>
+
+    <h3>Let us know how you want your food!</h3>
+    <textarea cols="30" rows="7" placeholder="Comments Here!"></textarea>
+    <hr>
+
+    <h3>Select your sauce!</h3>
+    <select name="sauce" id="">
+        <option value="sauce" disabled selected>No need sauce</option>
+        <option value="ketchup">Ketchup</option>
+        <option value="mustard">Mustard</option>
+        <option value="bbq">BBQ</option>
+        <option value="hot">Texas sauce(Extra Spicy!)</option>
+        <option value="sweetAndSpice">Sweet and Spicy</option>
+    </select>
+    <hr>
+
+    <h3>Create an account with us in 3 easy steps!</h3>
+    Creating an account allows you to track your order.
+    <hr>
+    <p>
+        Email:
+        <input type="text" placeholder="Enter email">
+    </p>
+
+    <p>
+        Username:
+        <input type="text" placeholder="Enter username">
+    </p>
+
+    <p>
+        Password:
+        <input type="password" placeholder="Enter password">
+    </p>
+
+
+    <input type="submit" name="Log In" value="Log In" onclick="alert('Thank you for Log in. Welcome to your account!')">
+    <input type="submit" name="signUp" value="Sign Up">
+
+
+</form>
+
+</body>
+</html>
